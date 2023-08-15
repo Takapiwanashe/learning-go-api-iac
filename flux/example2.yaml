@@ -16,7 +16,7 @@ spec:
         namespace: flux-system
   values:
     image:
-      tag: 0.0.3 # {"$imagepolicy": "flux-system:learning-go-api:tag"}
+      tag: 0.0.14 # {"$imagepolicy": "flux-system:learning-go-api:tag"}
     replicaCount: 2
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
@@ -37,5 +37,5 @@ spec:
         namespace: flux-system
   values:
     image:
-      tag: 0.0.3 # {"$imagepolicy": "flux-system:learning-go-api:tag"}
+      tag: 0.0.14 # {"$imagepolicy": "flux-system:learning-go-api:tag"}
     replicaCount: 3

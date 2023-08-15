@@ -4,7 +4,8 @@ metadata:
   name: go-api--develop
   namespace: learning-go-api
   labels:
-    chart: ava-api
+    # chart: ava-api
+    # chart: ./charts/learning-go-api2
   annotations:
     filter.fluxcd.io/chart-image: glob:*-alpha*
     fluxcd.io/automated: 'true'
@@ -13,7 +14,7 @@ spec:
   chart:
     spec:
       interval: 1m
-      chart: ./charts/learning-go-api2
+      chart: ./charts/test
       version: '>=0.0.1 <1.0.0'
       sourceRef:
         kind: GitRepository

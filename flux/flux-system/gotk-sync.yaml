@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/Takapiwanashe/learning-go-api-iac
+  url: ssh://git@github.com/takapiwanashe/learning-go-api-iac
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization

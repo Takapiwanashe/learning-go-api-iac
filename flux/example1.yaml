@@ -1,14 +1,14 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: learning-go-api5
+  name: learning-go-api2
   namespace: learning-go-api
 spec:
   interval: 5m
   chart:
     spec:
       interval: 1m
-      chart: ./charts/learning-go-api5
+      chart: ./charts/learning-go-api2
       version: '>=0.0.1 <1.0.0'
       sourceRef:
         kind: GitRepository

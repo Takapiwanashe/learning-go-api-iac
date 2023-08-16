@@ -5,7 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/renato0307/learning-go-api-iac
+  # url: https://github.com/renato0307/learning-go-api-iac
+  url: https://github.com/Takapiwanashe/learning-go-api-iac.git
   ref:
     branch: main
   ignore: |

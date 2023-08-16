@@ -18,3 +18,4 @@ spec:
     image:
       tag: 0.0.4 # {"$imagepolicy": "flux-system:learning-go-api:tag"}
     replicaCount: 2
+

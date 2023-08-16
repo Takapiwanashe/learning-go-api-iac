@@ -5,5 +5,5 @@ metadata:
   name: learning-go-api
   namespace: flux-system
 spec:
-  image: renato0307/learning-go-api
+  image: Takapiwanashe/learning-go-api
   interval: 1m0s

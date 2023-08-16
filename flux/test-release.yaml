@@ -3,7 +3,7 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: audience # Unique name of the release. This can usually be the same as the chart/service
-  namespace: develop # Namespace to install this release into
+  namespace: learning-go-api # Namespace to install this release into
   labels:
     chart: audience # Unique name
   annotations:

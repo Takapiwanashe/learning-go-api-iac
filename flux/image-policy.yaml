@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   imageRepositoryRef:
-    name: learning-go-api
+    name: sentiment-analysis-frontend
   policy:
     semver:
       range: '>=0.0.1 <1.0.0'

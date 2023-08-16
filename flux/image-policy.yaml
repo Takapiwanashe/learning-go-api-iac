@@ -9,4 +9,4 @@ spec:
     name: learning-go-api
   policy:
     semver:
-      range: '>=0.0.1 <2.0.0'
+      range: '>=0.0.1 <1.0.0'
